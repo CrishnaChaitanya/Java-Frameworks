@@ -1,5 +1,7 @@
 This is like the package.json file.
 
+POM - Project Object Model
+
 Maven uses a set of identifiers, also called coordinates, to uniquely identify a project and specify how the project artifact should be packaged: 
 - groupId – a unique base name of the company or group that created the project.
 - artifactId – a unique name of the project.
