@@ -1,0 +1,26 @@
+This is like the package.json file.
+
+Maven uses a set of identifiers, also called coordinates, to uniquely identify a project and specify how the project artifact should be packaged: 
+- groupId – a unique base name of the company or group that created the project.
+- artifactId – a unique name of the project.
+
+e.g : GropupID - com.google
+      ArtifactID - demo
+      Package : com.telusuko.demo.web
+
+If we want to add a dependency; then we have to mention it in the pom.xml as
+e.g: for spring MVC
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>5.3.21</version>
+</dependency>
+
+---------------------------
+
+MAVEN HAS:
+  1. REMOTE REPO
+  2. LOCAL REPO
+
+Whenever we ask for a dependency, It will first go to the Local repo and search there If its not available then it will go the Remote Repo.
