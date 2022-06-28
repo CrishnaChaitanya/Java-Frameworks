@@ -1,0 +1,31 @@
+What is Maven ? 
+Why Maven?
+
+MAVEN IS A ..
+ - BUILD TOOL  --- X
+ - PROJECT MANAGEMENT TOOL --- CORRECT
+ 
+-------------------------------------------------
+A JAVA PROJECT STRUCTURE
+ - SOURCE CODE
+ - TEST CODE
+ - PROJECT STRUCTURE 
+ - CONFIGURATION
+ - TASK RUNNER - BUILD, TEST, RUN
+ - REPORTING
+ 
+ --------------------------------------------------
+ 
+ MAVEN IS :
+  1. OPEN SOURCE
+  2. APACHE PROJECT
+ 
+ --------------------------------------------------
+ 
+ 1. PROVIDES PROJECT STRUCTURE AND MANAGES CONTENTS
+ 2. HELPS MANAGE DEPENDECIES
+ 3. CONFIGURABLE PROJECT OBJECT MODEL
+ 4. MAVEN TASKS - GOALS AND TARGETS
+ 5. CONVENTION OVER CONFIGURATION
+ 6. CONSISTENT
+ 7. CONFIGURABLE
