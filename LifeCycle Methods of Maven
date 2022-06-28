@@ -1,0 +1,15 @@
+LIFE CYCLE OF MAVEN ----- FAMOUS INTERVIEW QUESTION
+---------------------------------------------------
+
+1. MAVEN COMPILE - In this phase the maven compiler compiles the Java Classes, Codes
+                 - This is done using "Maven Compiler Plugin"
+                 
+2. MAVEN TEST -> In this phase it will Test the application like - Unit test cases, Integration test cases, functional test cases
+              -> This is done using "Maven  Surefire Plugin"
+              
+3. MAVEN RESOURCE -> In this pahse maven will create either of the these three file 
+                        - JAR/ WAR/ EAR
+                        - performed using "maven respurces plugin"
+                        
+
+OTHER TOOLS LIKE MAVEN ARE - GRADLE/ ANT/ 
