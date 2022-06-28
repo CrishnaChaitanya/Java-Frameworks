@@ -13,3 +13,8 @@ LIFE CYCLE OF MAVEN ----- FAMOUS INTERVIEW QUESTION
                         
 
 OTHER TOOLS LIKE MAVEN ARE - GRADLE/ ANT/ 
+
+WHAT ARE MAVEN PLUG-INS?
+1. Maven Compiler Plugin
+2. Maven  Surefire Plugin
+3. maven respurces plugin
