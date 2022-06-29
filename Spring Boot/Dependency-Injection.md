@@ -1,0 +1,5 @@
+DEPENDENCY INJECTION IS OF 2 TYPES:
+ 1. SETTER INJECTION
+ 2. CONSTRUCTOR INJECTION
+ 
+![image](https://user-images.githubusercontent.com/54280958/176478620-28a73c1f-e91e-40b0-b54a-277c7547c406.png)
