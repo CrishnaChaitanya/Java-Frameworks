@@ -1,0 +1,19 @@
+public Student(int id, String studentName) {
+        this.id = id;
+        this.studentName = studentName;
+    }
+    
+    
+    And in the bean.xml
+    -------------------
+    
+<bean id="student" class="com.company.Student">
+    <constructure-arg name="studentName" value="Krishna Whatever"/>
+    <constructure-arg name="id" value="1"></property>
+</bean>
+
+QUESTION = IF U SEE WE ARE PASSING THE VALIUE AS A STRING FOR ALL? THEN HOW IS IT GETTING CONVERTED TO THE INT OR ANY OTHER DATA TYPE MENTIONED THERE IN THE FUNCTION
+ANS = SPRING DOES THIS CONVERSION INTERNALLY
+
+IF U DONT WANT TO TROUBLE SPRING AND WANT TO SPECIFY THE DATA TYPE THEN THIS IS THE SYNTAX
+ <constructor-arg name="id" value="1" type="int"/>
