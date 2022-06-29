@@ -1,0 +1,7 @@
+<bean id="airtel" class="com.companyname.Airtel/>
+           ^                              |
+           |                ______________|
+           |               |
+ Airtel airtel   =  new Airtel();       //behind the scences of that bean line that we wrote; that's how spring is a creating an object for us.
+
+                         
